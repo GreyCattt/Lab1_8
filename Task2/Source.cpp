@@ -2,7 +2,9 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-int countBits(int number, bool bitValue)//created a function that calculate bits
+//created a function that calculate bits
+//took the code from practice 1.6
+int countBits(int number, bool bitValue)
 {
     int count = 0;
     while (number > 0) {
